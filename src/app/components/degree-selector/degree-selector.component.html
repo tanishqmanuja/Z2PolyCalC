@@ -1,0 +1,5 @@
+<div class="container">
+    <div class="title">Select Degree of Ring Polynomial</div>
+    <div class="number" *ngFor="let n of arr" (click)="sendData(n)">{{n}}</div>
+    <div class="number" (click)="sendData(undefined)">&infin;</div>
+</div>

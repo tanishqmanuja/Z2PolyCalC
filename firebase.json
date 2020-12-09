@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "dist/Z2PolyCalC",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

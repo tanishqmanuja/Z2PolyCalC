@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "z2polycalc": {
+      "hosting": {
+        "Z2PolyCalC": [
+          "z2polycalc"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "z2polycalc"
+  }
+}

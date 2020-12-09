@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+
+.container{
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    justify-items: center;
+    gap: 10px;
+    .title{
+        padding-bottom: 10px;
+        font-size: 1.1rem;
+        font-family: 'Montserrat', sans-serif;
+        grid-column: 1/-1;
+    }
+    .number{
+        padding: 10px;
+        font-size: 1.5rem;
+    }
+}
